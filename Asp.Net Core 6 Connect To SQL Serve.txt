@@ -1,0 +1,10 @@
+Asp.Net Core 6: Connect To SQL Server Database with EntityFramework Using C#
+----------------------------------------------------------------------------
+Pakage to Install
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+----------------------------------------------------------------------------
+Command
+
+Scaffold-DbContext "Server=ROGStrixG531;Database=VNR_InternShip;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataDb
